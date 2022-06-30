@@ -1,0 +1,540 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>GOARTIKEL</title>
+</head>
+<style>
+  body {
+    background-color: rgb(238, 238, 238);
+  }
+</style>
+
+<body>
+  <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" style="font-size: 30px;">GOARTIKEL</a>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="card p-4 pt-0 mt-3">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb mt-5">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><a href="#">Library</a></li>
+              <li class="breadcrumb-item active" aria-current="page">XAMPP/SERVER-SIDE/PHP</li>
+            </ol>
+          </nav>
+          <div class="judul1 mt-2" id="judul1">
+            <h2>XAMPP: Definisi, Fungsi, Komponen, dan Cara Kegunaannya</h2>
+          </div>
+          <div class="image">
+            <img src="img/xampp.jpg" alt="" style="max-width: 100%;">
+          </div>
+          <div class="content1 mt-3">
+            <p style="font-size: 20px;">Dewasa ini, banyak pengembang aplikasi yang memanfaatkan web server untuk dapat
+              mengintegrasikan perangkat
+              lunak dengan kebutuhan database secara mudah dan efektif. Langkah tersebut dapat diimplementasikan dengan
+              menggunakan media localhost dalam komputer anda dengan menggunakan tool bernama Xampp.</p>
+            <h2>Pengertian XAMPP</h2>
+            <p style="font-size: 20px;">Definisi sederhana dari Xampp adalah perangkat lunak berbasis web server yang
+              bersifat open source (bebas),
+              serta mendukung di berbagai sistem operasi, baik Windows, Linux, atau Mac OS. Xampp digunakan sebagai
+              standalone server (berdiri sendiri) atau biasa disebut dengan localhost. Hal tersebut memudahkan dalam
+              proses pengeditan, desain, dan pengembangan aplikasi.</p>
+            <p style="font-size: 20px;">XAMPP tersusun atas kependekan dari beberapa kata berikut ini:</p>
+
+            <div class="container">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      X (Cross Platform)
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p>Maksudnya adalah, Xampp dalam dijalankan di berbagai perangkat sistem operasi yang ada,
+                        misalnya
+                        Windows, Linux, Mac OS, dan Solaris. Dari ke semua sistem operasi tersebut, software ini
+                        bersifat
+                        open source atau dapat digunakan secara gratis.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      A (Apache)
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p>Apache merupakan aplikasi web server yang bertugas untuk menciptakan halaman website yang benar
+                        berdasarkan kode program PHP yang ditulis oleh pengembang web (developer). Memungkinkan juga
+                        untuk
+                        mengakses sistem database terlebih dahulu untuk mendukung halaman situs yang dihasilkan.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      M (MySQL / MariaDB)
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p>MySQL merupakan salah satu aplikasi database server yang menerapkan bahasa pemrograman SQL
+                        (Structured Query Language). Fungsi dari MySQL sendiri adalah untuk mengelola dan membuat sistem
+                        basis data secara terstruktur dan sistematis.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      P (PHP)
+                    </button>
+                  </h2>
+                  <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p>PHP adalah bahasa pemrograman khusus berbasis web untuk kebutuhan pada sisi server (back end).
+                        Sehingga, PHP sangat memungkinkan untuk membuat suatu halaman website menjadi lebih dinamis
+                        dengan
+                        menerapkan server-side scripting. PHP juga mendukung manajemen sistem pada Oracle, Postgresql,
+                        Microsoft Access, dan lain sebagainya.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+                      P (Perl)
+                    </button>
+                  </h2>
+                  <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p>Perl merupakan bahasa pemrograman untuk segala kebutuhan (cross platform) yang berfungsi
+                        sebagai
+                        penunjuk eksistensi dari PHP. Perl biasanya banyak digunakan untuk website development pada
+                        sistem
+                        berbasis CMS (Content Management System) seperti WordPress.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="fungsi">
+              <h2 style="margin-top: 20px;">Sejarah Singkat XAMPP</h2>
+              <p style="font-size: 20px;">Sejarah awal terbentuknya Xampp adalah dimulai dari tahap pengembangan yang
+                dilakukan oleh tim proyek yang
+                bernama Apache Friends pada tahun 2002. Tim tersebut terdiri dari tim inti (core), pengembang
+                (development),
+                dan pendukung (support). Proyek ini bertujuan untuk mendukung dan mempromosikan penggunaan dari Apache
+                web
+                server.</p>
+              <h2>Fungsi Dari XAMPP</h2>
+              <p style="font-size: 20px;">Terdapat banyak manfaat dari penggunaan Xampp, berikut merupakan beberapa
+                fungsi
+                utama yang dimiliki oleh tool web server ini.</p>
+              <!-- -------------------------------- -->
+              <h4>1. Mengkonfigurasi Pengaturan Database pada PhpMyAdmin</h4>
+              <p style="font-size: 20px;">Pertama, mampu mengatur halaman basis data pada PhpMyAdmin tanpa perlu
+                khawatir
+                terjadi error, dikarenakan
+                anda hanya mengakses pada server lokal komputer saja. Dengan PhpMyAdmin, anda bebas untuk melakukan
+                beberapa
+                perubahan seperti mengedit, menghapus, mengupdate, dan menambahkan user pada database.</p>
+              <!-- -------------------------------- -->
+              <h4>2. Menjalankan Laravel melalui Perangkat Komputer</h4>
+              <p style="font-size: 20px;">Kedua, Laravel merupakan salah satu framework milik PHP yang berfungsi untuk
+                mempermudah programmer dalam mengembangkan tampilan website. Sehingga, dengan penggunaan Xampp akan
+                lebih
+                mudah dalam memodifikasi kode program atau script, serta membuat fitur baru dengan lebih cepat.</p>
+              <!-- -------------------------------- -->
+              <h4>3. Menginstall WordPress secara Offline</h4>
+              <p style="font-size: 20px;">Yang terakhir, jika anda ingin belajar WordPress, maka anda dapat memanfaatkan
+                penggunaan dari Xampp tanpa membutuhkan koneksi internet. Sehingga, sangat memudahkan dalam proses
+                pengerjaan front end maupun back end.</p>
+            </div>
+
+            <div class="komponen">
+              <h2>3 Komponen Utama Yang Dimiliki</h2>
+              <p style="font-size: 20px;">Terdapat tiga komponen penting penyusun Xampp, diantaranya adalah sebagai
+                berikut:</p>
+              <h4>1. Control Panel</h4>
+              <p style="font-size: 20px;">Control panel merupakan layanan yang digunakan untuk mengelola Xampp mulai
+                dari
+                mengatur penggunaan database, mengupload file, melakukan konfigurasi terkait proyek website, dan
+                fungsionalitas fitur yang lainnya. Penerapannya akan sama dengan fitur pada CPanel untuk kebutuhan
+                hosting
+                yang bersifat online.</p>
+              <!-- -------------------------------- -->
+              <h4>2. HTDocs</h4>
+              <p style="font-size: 20px;">HTdocs, merupakan nama sebuah folder yang menjadi bagian dalam Xampp yang
+                berfungsi sebagai penyimpan file dan dokumen yang nantinya akan ditampilkan pada browser dalam bentuk
+                website. Untuk kapasitas penyimpanan dari HTdocs sendiri menyesuaikan dengan hardisk storage pada
+                perangkat komputer anda.</p>
+              <!-- -------------------------------- -->
+              <h4>3. PhpMyAdmin</h4>
+              <p style="font-size: 20px;">Peran atau tugas dari PhpMyAdmin adalah sebagai pengatur proses konfigurasi
+                pada
+                MySQL. Untuk membuka akses PhpMyAdmin, anda dapat memasukkan perintah pada web browser dengan menuliskan
+                alamat URL http://localhost/phpmyadmin.</p>
+            </div>
+
+            <div class="kegunaan" id="menggunakan">
+              <h2>Cara Menggunakan XAMPP</h2>
+              <p style="font-size: 20px;">Pada pembahasan yang terakhir, kami akan menjelaskan beberapa tahapan dalam
+                penggunaan Xampp mulai dari proses instalasi hingga contoh implementasinya.</p>
+              <h4>1. Cara Menginstall</h4>
+              <p style="font-size: 20px;">Berikut ini merupakan beberapa langkah untuk menginstall Xampp dengan mudah
+                dan cepat.</p>
+              <ul>
+                <li style="font-size: 20px;">Pertama, anda dapat mengunjungi situs laman resmi pada link berikut,
+                  <a href="https://www.apachefriends.org/download.html">SILAHKAN DOWNLOAD DISINI</a> Anda dapat
+                  mengunduh terlebih dahulu secara free dan
+                  jangan lupa untuk mempersiapkan koneksi internet.
+                </li>
+                <li style="font-size: 20px;">Setelah file berhasil terunduh, langkah berikutnya anda dapat mengekstrak
+                  file dan mulai tahap
+                  instalasi sesuai dengan petunjuk dan instruksi yang ada. Anda dapat memilih komponen yang dibutuhkan
+                  sesuai dengan kebutuhan perangkat lunak yang akan dikembangkan.</li>
+                <li style="font-size: 20px;">Selanjutnya, anda harus menentukan file direktori penyimpanan Xampp anda
+                  dengan memperhatikan kapasitas penyimpanan program. Kami merekomendasikan untuk meletakkan pada local
+                  disk system anda agar lebih mudah dalam proses maintenance.</li>
+                <li style="font-size: 20px;">Berikutnya, anda dapat menunggu proses instalasi hingga selesai dan Xampp
+                  siap dijalankan secara offline menggunakan bantuan localhost.</li>
+              </ul>
+
+              <h4 id="jalan">2. Cara Menjalankan</h4>
+              <p style="font-size: 20px;">Untuk menjalankan aplikasi Xampp, yang pertama harus dilakukan adalah membuka
+                terlebih dahulu aplikasi tersebut. Kemudian, anda dapat menekan tombol atau button yang bertuliskan
+                start untuk menjalankan modul Apache dan MySQL (untuk kebutuhan database).
+                <img class="mt-3 mb-3" src="img/jalankanxampp.png" style="max-width: 90%;">
+                <br>
+                Setelah anda telah memastikan bahwa aplikasi dapat berjalan tanpa ada pesan error, maka anda dapat
+                mengakses localhost dengan menuliskan alamat URL pada web browser anda.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card p-4 pt-0 mt-3">
+          <div class="judul2 mt-3" id="judul2">
+            <div class="content2">
+              <h4>Apa itu Server-Side</h4>
+              <hr>
+              <p style="font-size: 20px;">Server Side Programming Language, atau Bahasa Pemrograman sisi server, adalah
+                bahasa pemrograman web, yang letak source code nya nanti hanya ada di webserver. Bahasa ini source code
+                nya tidak akan muncul di sisi client (browser). Client/browser hanya menerima keluaran dari kode program
+                tersebut.</p>
+              <p style="font-size: 20px;">nah, Apa saja sih pemrograman server-side itu? nah, ini dia</p>
+              <p style="font-size: 20px;">Macam-macam bahasa pemrograman server-side:</p>
+              <div class="container mt-3">
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <img src="img/php.png" style="max-width: 70px;">
+                        <h4 class="ms-3">PHP</h4>
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                      data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <p>Bahasa pemrograman PHP menjadi salah satu bahasa yang paling sering digunakan untuk server
+                          side
+                          programming. Meskipun PHP termasuk bahasa pemrograman tertua namun kemampuannya masih dapat
+                          diandalkan untuk pengembangan web saat ini.
+                          <br>
+                          Diketahui terdapat sekitar 80 % website yang berjalan menggunakan bahasa pemrograman ini.
+                          Selain
+                          itu PHP juga menjadi bahasa pemrograman pertama yang dirancang secara khusus untuk website
+                          sehingga penggunaanya dapat mendominasi di era Web 2.0 tahun 2000an.
+                          <br>
+                          PHP sering digunakan untuk mengembangkan situs web statis, web dinamis, atau aplikasi Web. PHP
+                          juga dapat berjalan pada hampir semua operating system termasuk Linux, Microsoft Windows,
+                          macOS,
+                          dan lain-lain..
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <img src="img/nodejs.png" style="max-width: 70px;">
+                        <h4 class="ms-3">NodeJs</h4>
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                      data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <p>Node.js adalah bahasa pemrograman Javascript sisi server yang dibangun di Google Chrome V8
+                          JavaScript Engine. Salah satu kelebihan Node.js adalah Anda dapat menggunakan Javascript untuk
+                          rendering front-end dan menggunakannya kembali di sisi back-end.
+                          <br>
+                          Bahasa ini dirilis pada tahun 2009 dan sudah semakin berkembang. Node.js banyak digunakan oleh
+                          para developer untuk mengembangkan konsol, desktop, website, serta web app. Node.js juga dapat
+                          berjalan diberbagai platform seperti Windows, Linux, Unix, Mac OS X, dan lain-lain.
+                          <br>
+                          Ketika menghandle file request, Node.js dapat menghilangkan proses menunggu sehingga dapat
+                          menangani file request selanjutnya dengan cepat. Sebagian besar situs web populer sudah
+                          memanfaatkan Node.js dalam pengembangan layanannya. Beberapa web tersebut seperti Netflix,
+                          PayPal, Uber, dan LinkedIn
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <img src="img/java.webp" style="max-width: 70px;">
+                        <h4 class="ms-3">Java</h4>
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                      data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <p>Java bisa dibilang platform paling kuat untuk pengembangan web sisi server saat ini. Bahasa
+                          pemrograman ini bersifat open source, berorientasi objek, tidak memerlukan infrastruktur
+                          perangkat keras tertentu, mudah dikelola, serta memiliki tingkat keamanan yang baik.
+                          <br>
+                          Pada awalnya, Java sering digunakan sebagai alternatif untuk C ++ yang banyak digunakan dalam
+                          aplikasi bisnis tahun 90-an. Namun sampai saat ini, Java justru memiliki popularitas yang
+                          lebih
+                          baik daripada C ++. Java dapat digunakan untuk berbagai pengembangan sistem seperti mobile app
+                          (terutama untuk Android), desktop app, web applications, games, dan masih banyak lagi.
+                          <br>
+                          Selain itu, Java juga dapat berjalan diberbagai platform seperti Windows, Mac, Linux, dan
+                          lain-lain. Beberapa situs populer yang dikembangkan dengan Java dalah Google, Amazon, dan
+                          eBay.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <img src="img/phyton.png" style="max-width: 70px;">
+                        <h4 class="ms-3">Phyton</h4>
+                      </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                      data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <p>Python menjadi salah satu bahasa pemrograman yang banyak digunakan oleh pemula. Bahasa ini
+                          juga
+                          dianggap mudah untuk dipelajari karena sintaks yang dimiliki cukup sederhana dan terlihat
+                          mirip
+                          dengan Bahasa Inggris. Python juga menyediakan library yang besar dengan begitu banyak fungsi
+                          pra-kode sehingga Anda tidak perlu lagi menulis fungsi buatan sendiri.
+                          <br>
+                          Meskipun mudah untuk digunakan, Python mempunyai performa yang baik untuk berbagai keperluan
+                          seperti pengembangan web sisi server, perangkat lunak, serta pembuatan system scripting.
+                          Selain
+                          itu, Python juga memiliki kemampuan untuk menangani data besar dan melakukan matematika yang
+                          kompleks. Contoh situs web terkenal yang dibangun dengan Python adalah Youtube, Instagram,
+                          Dropbox, Quora.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+                        <img src="img/ruby.jpg" style="max-width: 40px;">
+                        <h4 class="ms-5">Ruby</h4>
+                      </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                      data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <p>Ruby adalah bahasa pemrograman yang berorientasi pada objek dan bersifat open source. Bahasa
+                          ini dikembangkan oleh Yukihiro Matsumoto pada tahun 1995.
+                          <br>
+                          Ruby populer untuk digunakan sebagai bahasa pemrograman untuk mengembangkan web applications.
+                          Rails adalah framework paling populer untuk Ruby, dan framework ini mudah dioperasikan oleh
+                          programmer. Tidak heran jika sebagian besar startup lebih suka memulai aplikasi mereka dengan
+                          Ruby on Rails. Berapa website yang menggunakan Ruby adalah GitHub, Airbnb, Shopify, dan masih
+                          banyak lagi.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card p-4 pt-0 mt-3">
+          <div class="judul3 mt-3" id="judul3">
+            <h4>Tutorial Belajar PHP: Cara menjalankan file PHP dengan XAMPP</h4>
+            <hr>
+            <p class="p1 mt-3" style="font-size: 20px;">Sebelumnya kita mempraktekkan <a href="#menggunakan">cara
+                menjalankan XAMPP</a></p>
+            <p style="font-size: 20px;">Kali ini kita akan mempraktekkan cara menjalankan PHP</p>
+          </div>
+          <!-- ----------------- -->
+          <div class="content3">
+            <h4>Mengenal Folder htdocs</h4>
+            <p style="font-size: 20px;">Agar dapat mengakses halaman PHP dari web browser, maka kita harus menempatkan
+              file PHP dalam folder khusus yang merupakan folder home dari web server. Pada aplikasi XAMPP, folder
+              tersebut adalah folder htdocs yang berada di C:\xampp\htdocs.</p>
+            <img src="img/folderhtdocs.png" style="max-width: 100%;">
+            <p class="mt-3" style="font-size: 20px;">Seluruh file PHP harus diletakkan dalam folder htdocs ini. Agar
+              memudahkan
+              pencarian file, saya akan membuat folder “belajar” di dalam folder htdocs. Nantinya file kita akan ada di
+              dalam folder belajar ini.</p>
+            <h4>Cara Menulis File PHP</h4>
+            <p style="font-size: 20px;">File PHP pada dasarnya merupakan file text biasa yang bisa dibuat menggunakan
+              aplikasi notepad bawaan windows, namun untuk penggunaan yang lebih baik, kita bisa pakai aplikasi text
+              editor khusus programming seperti VS Code atau Sublime Text.</p>
+            <div class="card">
+              <div class="card-body bg-light">
+                <p class="card-text" style="font-size: 15px;">Sebagai text-editor alternatif, anda bisa mencoba Visual
+                  Studio Code atau sering
+                  disingkat sebagai VS Code. Aplikasi editor ini merupakan salah satu teks editor favorit banyak
+                  programmer. VS Code bisa di unduh secara gratis dari web resminya <a
+                    href="https://code.visualstudio.com/">KLIK DISNI</a></p>
+              </div>
+            </div>
+            <p style="font-size: 20px;">Kembali ke folder belajar yang berada di C:\xampp\htdocs\belajar, kita akan
+              membuat sebuah file baru. Untuk pembuatan file ini bisa menggunakan VS Code.</p>
+            <p style="font-size: 20px;">Buka folder "belajar" dengan VS Code , buat file dengan nama "coba.php". File
+              tersebut akan berada pada alamat C:\xampp\htdocs\belajar\coba.php. Untuk menjalankannya, harus menggunakan
+              web browser.</p>
+            <img src="img/codephp.png" style="max-width: 100%;">
+            <!-- ----------------- -->
+            <h4 class="mt-5">Cara Menjalankan File PHP</h4>
+            <p style="font-size: 20px;">Jika Web Server Apache belum berjalan, silahkan jalankan terlebih dahulu seperti
+              yang sudah kita bahas pada tutorial <a href="#jalan">cara menjalankan XAMPP</a>.
+              <br><br>
+              Lalu buka browser, dan ketik alamat berikut: localhost/belajar/coba.php pada address bar dan tekan Enter.
+            </p>
+            <img src="img/jalankanphp.png" style="max-width: 100%;">
+            <p style="font-size: 20px;">Selamat! Kita telah berhasil menjalankan sebuah file PHP, walaupun file PHP
+              tersebut tidak mengerjakan apa-apa selain menampilkan beberapa baris text.
+              <br><br>
+              Sebelum mengakhiri tutorial ini, ada beberapa hal yang perlu diperhatikan terkait cara menjalankan file
+              PHP:
+            </p>
+            <ul>
+              <li style="font-size: 20px;">File php yang akan dijalankan harus berada di dalam folder C:\xampp\htdocs,
+                baik itu di dalam folder
+                tersebut, atau folder-folder dibawahnya. Untuk menjalankan di dalam browser, tinggal mengganti alamat
+                C:\xampp\htdocs menjadi localhost. Jika file php berada di luar folder htdocs, maka web server tidak
+                bisa mengaksesnya.</li>
+              <li style="font-size: 20px;">Setiap file PHP harus ditulis menggunakan akhiran .php (meskipun ini bisa
+                diubah pada pengaturan modul
+                php).</li>
+              <li style="font-size: 20px;">Penamaan file PHP harus tanpa spasi dan sebaiknya menggunakan huruf kecil.
+                Anda dapat menggunakan
+                underscore (_) sebagai pengganti spasi.</li>
+            </ul>
+          </div>
+        </div>
+        <h4 class="mt-3">ADD COMMENT</h4>
+        <div class="card p-4 pt-0 mt-3 mb-3">
+          <div class="input">
+            <div class="mt-3">
+              <label for="formGroupExampleInput" class="form-label">Nama</label>
+              <input type="text" class="form-control bg-light" id="formGroupExampleInput">
+            </div>
+            <div class="mt-3">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control bg-light" id="inputEmail4">
+            </div>
+            <div class="form-floating mt-3">
+              <textarea class="form-control bg-light" placeholder="Leave a comment here" id="floatingTextarea2"
+                style="height: 100px"></textarea>
+              <label for="floatingTextarea2">Comments</label>
+            </div>
+            <div class="col-12 mt-3">
+              <button type="submit" class="btn btn-primary">Kirim Comment</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-4 pt-0 mt-3 bg-light">
+          <div class="content1" style="text-align: center;">
+            <h4>ISI ARTIKEL</h4>
+            <hr>
+            <p><a href="#judul1">XAMPP: Definisi, Fungsi, Komponen, dan Cara Kegunaannya</a><br>Post , 19 Mei 2022</p>
+            <hr>
+            <p><a href="#judul2">Apa itu Server-Side?</a><br>Post , 19 Mei 2022</p>
+            <hr>
+            <p><a href="#judul3">Tutorial Belajar PHP: Cara menjalankan file PHP dengan XAMPP</a><br>Post , 19 Mei 2022
+            </p>
+          </div>
+        </div>
+        <div class="card p-4 pt-0 mt-3 bg-light">
+          <div class="content1" style="text-align: center;">
+            <h4>ARTIKEL YANG TERKAIT</h4>
+            <hr>
+            <p><a href="https://www.niagahoster.co.id/blog/cara-menggunakan-xampp/">Pengertian XAMPP Lengkap dengan Cara
+                Menggunakannya</a><br>NiagaHoster , 20 Mei 2022</p>
+            <hr>
+            <p><a
+                href="https://blog.ecampuz.com/top-5-bahasa-pemrograman-server-side-selain-php/#:~:text=Server%20Side%20Programming%20Language%2C%20atau,keluaran%20dari%20kode%20program%20tersebut.">
+                Apa itu Server-Side-Progamming?</a><br>eCampus , 21 Mei 2022</p>
+            <hr>
+            <p><a href="https://www.petanikode.com/tutorial/php/">Tutorial Belajar PHP dasar</a><br>PetaniKode , 22 Mei
+              2022
+            </p>
+            <hr>
+            <p><a href="https://www.hostinger.co.id/tutorial/apa-itu-php/">Apa itu PHP?</a><br>Hostinger , 22 Mei
+              2022
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer mt-5" style="background-color: #f8f9fa;">
+    <div class="text p-4" style="text-align: center;">
+      Copyright 2021/2022 Design All Right Resrved Powered By Blogger
+    </div>
+  </div>
+
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
